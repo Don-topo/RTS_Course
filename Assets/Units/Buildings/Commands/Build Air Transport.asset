@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5a33fb574e403499a3e2185242c520, type: 3}
+  m_Name: Build Air Transport
+  m_EditorClassIdentifier: Assembly-CSharp::BuildUnitCommand
+  <Name>k__BackingField: Air Transport
+  <HotKey>k__BackingField: 15
+  <Icon>k__BackingField: {fileID: 21300000, guid: 4d0944a6c62020d4f955f5b7174bb96f, type: 3}
+  <Slot>k__BackingField: 0
+  <IsSingleUnitCommand>k__BackingField: 0
+  <RequiresClickToActivate>k__BackingField: 0
+  <GhostPrefab>k__BackingField: {fileID: 0}
+  <Restrictions>k__BackingField: []
+  <Unit>k__BackingField: {fileID: 11400000, guid: 4b0a155834b2a104d919168dbee8d20f, type: 2}

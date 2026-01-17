@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd93877765881b43832d28932f36b39, type: 3}
+  m_Name: Airport
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingSO
+  <Name>k__BackingField: Airport
+  <IsOneTimeUnlock>k__BackingField: 0
+  <BuildTime>k__BackingField: 70
+  <Icon>k__BackingField: {fileID: 21300000, guid: b947cd2ebe26be8448a6f7c04aabc5e5, type: 3}
+  <Cost>k__BackingField: {fileID: 11400000, guid: cc2f372cd38747e438a4dca0414b2307, type: 2}
+  <TechTree>k__BackingField: {fileID: 11400000, guid: f8dca33d1ddc9eb48843426f8041c04b, type: 2}
+  <unlockRequirements>k__BackingField:
+  - {fileID: 11400000, guid: 1c8d66194cf89464d96f5479e139c50e, type: 2}
+  <Health>k__BackingField: 1300
+  <Prefab>k__BackingField: {fileID: 5827066523746683823, guid: ce58b4a7676b51d45869f6a426cf2db8, type: 3}
+  <Upgrades>k__BackingField: []
+  <SightConfig>k__BackingField: {fileID: 11400000, guid: ae2dd96a4c969d64c87e76fa194c99e1, type: 2}
+  <PopulationConfig>k__BackingField: {fileID: 11400000, guid: e9722d824cc02a247b82685214fc221b, type: 2}
+  <PlaceMaterial>k__BackingField: {fileID: 2100000, guid: 41446ccb46b1e57489d88de20231455a, type: 2}

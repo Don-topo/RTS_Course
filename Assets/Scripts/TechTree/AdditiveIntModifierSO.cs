@@ -1,0 +1,24 @@
+using System;
+using System.Reflection;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Additive Int Modifier", menuName = "Tech Tree/Modifiers/Additive Int Modifier", order = 160)]
+public class AdditiveIntModifierSO : UpgradeSO
+{
+    [field: SerializeField] public int Amount { get; private set; }
+
+    public override void Apply(AbstractUnitSO unit)
+    {
+        Debug.Log($"{Name} is appliying {Amount} to {PropertyPath}.");
+        
+        try
+        {
+            int currentValue = GetPropertyValue<int>(unit, out object target, out PropertyInfo attributeField);
+            Debug.Log($"Adding the {Amount} to {PropertyPath}'s current value of {currentValue}");
+            currentValue += Amount;
+            attributeField.SetValue(target, currentValue);
+            Debug.Log($"Updated value to: {attributeField.GetValue(target)}");
+        }
+        catch(InvalidPathSpecifiedException){}        
+    }
+}

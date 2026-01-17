@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cedde0b20fbca4b8795cd22ae84301, type: 3}
+  m_Name: Grenadier
+  m_EditorClassIdentifier: Assembly-CSharp::UnitSO
+  <Name>k__BackingField: Grenadier
+  <IsOneTimeUnlock>k__BackingField: 0
+  <BuildTime>k__BackingField: 5
+  <Icon>k__BackingField: {fileID: 21300000, guid: 920f021a2d26a374593bb761fa77d29d, type: 3}
+  <Cost>k__BackingField: {fileID: 11400000, guid: 073fe7532cc4ddb4086d20ae337876de, type: 2}
+  <TechTree>k__BackingField: {fileID: 11400000, guid: f8dca33d1ddc9eb48843426f8041c04b, type: 2}
+  <unlockRequirements>k__BackingField:
+  - {fileID: 11400000, guid: a109995dbaccbe14590b2c5118fbaa24, type: 2}
+  <Health>k__BackingField: 100
+  <Prefab>k__BackingField: {fileID: 1813055781741166138, guid: d606f67b2169916478d3b1364e1b4428, type: 3}
+  <Upgrades>k__BackingField:
+  - {fileID: 11400000, guid: 1d63c01c9c601bc4f875af8d47fb4a37, type: 2}
+  - {fileID: 11400000, guid: 680806a82a1ec36449c24ab3775b4a6e, type: 2}
+  - {fileID: 11400000, guid: f1cee691484e0af478c9fc839294e8dd, type: 2}
+  <SightConfig>k__BackingField: {fileID: 11400000, guid: fd91bd35d35eb24418fe3d5b2d047f94, type: 2}
+  <PopulationConfig>k__BackingField: {fileID: 11400000, guid: ee72401470abe72479766c9499daeeca, type: 2}
+  <AttackConfig>k__BackingField: {fileID: 11400000, guid: 3197e8854791f2f4089a7f2e398f9eee, type: 2}
+  <TransportConfig>k__BackingField: {fileID: 11400000, guid: 9b690352faa3f634eb41b061a8e0c41c, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd93877765881b43832d28932f36b39, type: 3}
+  m_Name: SupplyHut
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingSO
+  <Name>k__BackingField: Supply Hut
+  <IsOneTimeUnlock>k__BackingField: 0
+  <BuildTime>k__BackingField: 40
+  <Icon>k__BackingField: {fileID: 21300000, guid: 5b1043abe99f2d943b94b631a2aa42d9, type: 3}
+  <Cost>k__BackingField: {fileID: 11400000, guid: cab75972dc906264b809c4df9bc482b2, type: 2}
+  <TechTree>k__BackingField: {fileID: 11400000, guid: f8dca33d1ddc9eb48843426f8041c04b, type: 2}
+  <unlockRequirements>k__BackingField: []
+  <Health>k__BackingField: 500
+  <Prefab>k__BackingField: {fileID: 6964012305514025925, guid: 60174e2531fe1794a81f4a279e17f61d, type: 3}
+  <Upgrades>k__BackingField: []
+  <SightConfig>k__BackingField: {fileID: 11400000, guid: ae2dd96a4c969d64c87e76fa194c99e1, type: 2}
+  <PopulationConfig>k__BackingField: {fileID: 11400000, guid: 2e8ed04b18d6c634ea6f4814f8d6d566, type: 2}
+  <PlaceMaterial>k__BackingField: {fileID: 2100000, guid: 41446ccb46b1e57489d88de20231455a, type: 2}
